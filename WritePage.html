@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>onetoday</title>
-		<link rel="stylesheet" href="MainMorePage.css" />
+		<link rel="stylesheet" href="WritePage.css" />
 	</head>
 	<body>
 		<div class="container">
@@ -18,219 +18,42 @@
 				<div class="white-box-top"></div>
 				<div class="white-box-top-under"></div>
 				<div class="white-box">
-					<div class="title-continer">
-						<div style="display: flex; width: 150px">
-							<div class="title-bar"></div>
-							<div class="title-text">Today new group</div>
-						</div>
-					</div>
-					<div class="filter-container">
-						<img src="images/FilterIcon.svg" class="filter-img" />
-						<div class="fill-btn modal-btn">
-							<div class="btn-text">상세 필터로 검색</div>
-						</div>
-					</div>
-					<div class="group-wrapper">
-						<div class="group-box">
-							<div class="inner">
-								<div class="group-img-container"></div>
-								<div class="group-text-container">
-									<div class="group-title-text">그룹 이름</div>
-									<div class="group-title-arrow">></div>
-									<div class="tag-container">
-										<div class="tag">#향수</div>
-										<div class="tag">#비누</div>
-										<div class="tag">#성수동</div>
-									</div>
-									<div style="display: flex">
-										<img src="images/GroupCalendar.svg" class="calendar-img" />
-										<div class="group-date-text">8월 27일 - 9월 1일</div>
-									</div>
-									<div style="margin-top: 7px; display: flex">
-										<div>
-											<img
-												src="images/Profile1.svg"
-												class="group-profile-img"
-											/>
-											<img
-												src="images/Profile2.svg"
-												class="group-profile-img"
-											/>
-											<img
-												src="images/Profile3.svg"
-												class="group-profile-img"
-											/>
-											<img
-												src="images/Profile4.svg"
-												class="group-profile-img"
-											/>
-										</div>
-										<div class="group-dot-container">
-											<div class="dot-container">
-												<div class="group-dot"></div>
-												<div class="group-dot"></div>
-												<div class="group-dot"></div>
-											</div>
-											<span class="group-dot-text">(4/7)</span>
-										</div>
-									</div>
-									<div class="request-btn">
-										<div class="request-btn-text">그룹 참여 신청하기</div>
-										<img src="images/RequestBtn.svg" class="request-btn-img" />
-									</div>
+					<div class="white-box-inner">
+						<form>
+							<input class="title-input" placeholder="그룹 이름" />
+							<div class="border1"></div>
+							<textarea
+								placeholder="본문을 입력하세요"
+								class="main-textarea"
+							></textarea>
+							<div class="border"></div>
+							<textarea placeholder="#해시태그" class="tag-textarea"></textarea>
+							<div class="border"></div>
+							<div class="filter-container">
+								<div class="fill-btn modal-btn">
+									<div class="btn-text">조건 설정하기</div>
 								</div>
 							</div>
-						</div>
-						<div class="group-box">
-							<div class="inner">
-								<div class="group-img-container"></div>
-								<div class="group-text-container">
-									<div class="group-title-text">그룹 이름</div>
-									<div class="group-title-arrow">></div>
-									<div class="tag-container">
-										<div class="tag">#향수</div>
-										<div class="tag">#비누</div>
-										<div class="tag">#성수동</div>
-									</div>
-									<div style="display: flex">
-										<img src="images/GroupCalendar.svg" class="calendar-img" />
-										<div class="group-date-text">8월 27일 - 9월 1일</div>
-									</div>
-									<div style="margin-top: 7px; display: flex">
-										<div>
-											<img
-												src="images/Profile1.svg"
-												class="group-profile-img"
-											/>
-											<img
-												src="images/Profile2.svg"
-												class="group-profile-img"
-											/>
-											<img
-												src="images/Profile3.svg"
-												class="group-profile-img"
-											/>
-											<img
-												src="images/Profile4.svg"
-												class="group-profile-img"
-											/>
-										</div>
-										<div class="group-dot-container">
-											<div class="dot-container">
-												<div class="group-dot"></div>
-												<div class="group-dot"></div>
-												<div class="group-dot"></div>
-											</div>
-											<span class="group-dot-text">(4/7)</span>
-										</div>
-									</div>
-									<div class="request-btn">
-										<div class="request-btn-text">그룹 참여 신청하기</div>
-										<img src="images/RequestBtn.svg" class="request-btn-img" />
-									</div>
+							<div class="footer-container">
+								<div class="footer-container-inner">
+									<a href="MainPage.html">
+										<div class="footer-text">취소</div>
+									</a>
+									<img src="images/Footer1.svg" class="footer-img" />
+									<img src="images/Footer2.svg" class="footer-img" />
+									<img src="images/Footer3.svg" class="footer-img" />
+									<img src="images/Footer4.svg" class="footer-img" />
+									<img src="images/Footer5.svg" class="footer-img" />
+									<a href="MainMorePage.html">
+										<input
+											type="submit"
+											value="등록"
+											class="footer-text footer-text1"
+										/>
+									</a>
 								</div>
 							</div>
-						</div>
-						<div class="group-box">
-							<div class="inner">
-								<div class="group-img-container"></div>
-								<div class="group-text-container">
-									<div class="group-title-text">그룹 이름</div>
-									<div class="group-title-arrow">></div>
-									<div class="tag-container">
-										<div class="tag">#향수</div>
-										<div class="tag">#비누</div>
-										<div class="tag">#성수동</div>
-									</div>
-									<div style="display: flex">
-										<img src="images/GroupCalendar.svg" class="calendar-img" />
-										<div class="group-date-text">8월 27일 - 9월 1일</div>
-									</div>
-									<div style="margin-top: 7px; display: flex">
-										<div>
-											<img
-												src="images/Profile1.svg"
-												class="group-profile-img"
-											/>
-											<img
-												src="images/Profile2.svg"
-												class="group-profile-img"
-											/>
-											<img
-												src="images/Profile3.svg"
-												class="group-profile-img"
-											/>
-											<img
-												src="images/Profile4.svg"
-												class="group-profile-img"
-											/>
-										</div>
-										<div class="group-dot-container">
-											<div class="dot-container">
-												<div class="group-dot"></div>
-												<div class="group-dot"></div>
-												<div class="group-dot"></div>
-											</div>
-											<span class="group-dot-text">(4/7)</span>
-										</div>
-									</div>
-									<div class="request-btn">
-										<div class="request-btn-text">그룹 참여 신청하기</div>
-										<img src="images/RequestBtn.svg" class="request-btn-img" />
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="group-box">
-							<div class="inner">
-								<div class="group-img-container"></div>
-								<div class="group-text-container">
-									<div class="group-title-text">그룹 이름</div>
-									<div class="group-title-arrow">></div>
-									<div class="tag-container">
-										<div class="tag">#향수</div>
-										<div class="tag">#비누</div>
-										<div class="tag">#성수동</div>
-									</div>
-									<div style="display: flex">
-										<img src="images/GroupCalendar.svg" class="calendar-img" />
-										<div class="group-date-text">8월 27일 - 9월 1일</div>
-									</div>
-									<div style="margin-top: 7px; display: flex">
-										<div>
-											<img
-												src="images/Profile1.svg"
-												class="group-profile-img"
-											/>
-											<img
-												src="images/Profile2.svg"
-												class="group-profile-img"
-											/>
-											<img
-												src="images/Profile3.svg"
-												class="group-profile-img"
-											/>
-											<img
-												src="images/Profile4.svg"
-												class="group-profile-img"
-											/>
-										</div>
-										<div class="group-dot-container">
-											<div class="dot-container">
-												<div class="group-dot"></div>
-												<div class="group-dot"></div>
-												<div class="group-dot"></div>
-											</div>
-											<span class="group-dot-text">(4/7)</span>
-										</div>
-									</div>
-									<div class="request-btn">
-										<div class="request-btn-text">그룹 참여 신청하기</div>
-										<img src="images/RequestBtn.svg" class="request-btn-img" />
-									</div>
-								</div>
-							</div>
-						</div>
+						</form>
 					</div>
 				</div>
 			</div>
