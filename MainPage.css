@@ -19,21 +19,22 @@
 }
 .header-container {
 	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .logo-img {
 	position: absolute;
 	width: 154px;
 	height: 84px;
-	left: 116.05px;
 	top: 55px;
 }
 .logo-line-img {
 	position: absolute;
 	width: 180.05px;
 	height: 70.9px;
-	left: 94.28px;
 	top: 114.76px;
-	transform: rotate(10.8deg);
+	transform: rotate(360.8deg);
 }
 .profile-img {
 	width: 28px;
@@ -103,6 +104,12 @@
 	font-size: 16px;
 	color: #000000;
 	margin-left: 10px;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+	height: 13px;
+	cursor: pointer;
 }
 .more-text {
 	font-family: "NanumSquare";
